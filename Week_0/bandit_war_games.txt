@@ -1,0 +1,97 @@
+/etc/bandit_pass/
+/tmp/
+
+pass0->1 : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+pass1->2 : rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+pass2->3 : aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+pass3->4 : 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+pass4->5 : lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+pass5->6 : P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU find ./* -type f -size 1033c | xargs ls -al
+pass6->7 : z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S find -size 33c -group bandit6 -user bandit7 -exec grep -v "denied" {} + 2>/dev/null
+pass7->8 : TESKZC0XvTetK0S9xNwm25STk5iWrBvP cat data.txt | awk '$1 ~ /millionth/ {print $2}'
+pass8->9 : EN632PlfYiZbn3PhVK3XOGSlNInNE00t cat data.txt | sort | uniq -c | awk -e 'BEGIN {gsub(/ /,"",$0)}' -e '{if ($1 ==1) print $2}'
+pass9->10 : G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s strings data.txt | awk '{if (length($2)==32 )print $2}'
+pass10->11 : 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM cat data.txt | base64 -d | awk '{print $4}'
+pass11->12 : JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+pass12->13 : wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+pass13->14 : fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq echo fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq | nc localhost 30000
+pass14->15 : jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+pass15->16 : JQttfApK4SeyHwDlI9SXGR50qclOAil1 openssl s_client -connect localhost:30001
+pass16->17 : Not a key but a private ssh key is provided for the next level
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
+             nmap -p 31000-32000 --open localhost 
+             openssl s_client -connect localhost:31790
+pass17->18 : hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg cat passwords.new passwords.old | sort | uniq -c | awk -e 'BEGIN {gsub(/ /,"",$0)}' -e '{if ($1==1) print $2}'
+
+pass18->19 : awhqfNnAbc1naukrpqDYcF95h7HoMTrC ssh bandit18@bandit.labs.overthewire.org -p 2220 -t "cat readme"
+pass19->20 : VxCazJaVykI6W36BkBU0mJTCM8rR95XT ./bandit20-do cat /etc/bandit_pass/bandit20
+pass20->21 : NvEJF7oVjkddltPSrdKEFOllh9V1IBcq 
+             Make two ssh connections , on one run echo VxCazJaVykI6W36BkBU0mJTCM8rR95XT | nc -l 1234 
+             on second do ./suconnect 1234
+pass21->22 : WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+pass22->23 : QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G echo I am user bandit23 | md5sum | cut -d ' ' -f1
+pass23->24 : VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar write a bash scipt to copy password from /etc/bandit_pass/bandit24 
+pass24->25 : p7TaowMYrmu23Ol8hiZh9UvD0O9hpx8d write a bash script to print all numbers from 1 to 9999 and prepend with pass23->24 and cat padded.txt | nc localhost 30002
+pass24->25 : c7GvcKlw9mC7aUQaPx7nwFstuAIBw1o1 
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEApis2AuoooEqeYWamtwX2k5z9uU1Afl2F8VyXQqbv/LTrIwdW
+pTfaeRHXzr0Y0a5Oe3GB/+W2+PReif+bPZlzTY1XFwpk+DiHk1kmL0moEW8HJuT9
+/5XbnpjSzn0eEAfFax2OcopjrzVqdBJQerkj0puv3UXY07AskgkyD5XepwGAlJOG
+xZsMq1oZqQ0W29aBtfykuGie2bxroRjuAPrYM4o3MMmtlNE5fC4G9Ihq0eq73MDi
+1ze6d2jIGce873qxn308BA2qhRPJNEbnPev5gI+5tU+UxebW8KLbk0EhoXB953Ix
+3lgOIrT9Y6skRjsMSFmC6WN/O7ovu8QzGqxdywIDAQABAoIBAAaXoETtVT9GtpHW
+qLaKHgYtLEO1tOFOhInWyolyZgL4inuRRva3CIvVEWK6TcnDyIlNL4MfcerehwGi
+il4fQFvLR7E6UFcopvhJiSJHIcvPQ9FfNFR3dYcNOQ/IFvE73bEqMwSISPwiel6w
+e1DjF3C7jHaS1s9PJfWFN982aublL/yLbJP+ou3ifdljS7QzjWZA8NRiMwmBGPIh
+Yq8weR3jIVQl3ndEYxO7Cr/wXXebZwlP6CPZb67rBy0jg+366mxQbDZIwZYEaUME
+zY5izFclr/kKj4s7NTRkC76Yx+rTNP5+BX+JT+rgz5aoQq8ghMw43NYwxjXym/MX
+c8X8g0ECgYEA1crBUAR1gSkM+5mGjjoFLJKrFP+IhUHFh25qGI4Dcxxh1f3M53le
+wF1rkp5SJnHRFm9IW3gM1JoF0PQxI5aXHRGHphwPeKnsQ/xQBRWCeYpqTme9amJV
+tD3aDHkpIhYxkNxqol5gDCAt6tdFSxqPaNfdfsfaAOXiKGrQESUjIBcCgYEAxvmI
+2ROJsBXaiM4Iyg9hUpjZIn8TW2UlH76pojFG6/KBd1NcnW3fu0ZUU790wAu7QbbU
+i7pieeqCqSYcZsmkhnOvbdx54A6NNCR2btc+si6pDOe1jdsGdXISDRHFb9QxjZCj
+6xzWMNvb5n1yUb9w9nfN1PZzATfUsOV+Fy8CbG0CgYEAifkTLwfhqZyLk2huTSWm
+pzB0ltWfDpj22MNqVzR3h3d+sHLeJVjPzIe9396rF8KGdNsWsGlWpnJMZKDjgZsz
+JQBmMc6UMYRARVP1dIKANN4eY0FSHfEebHcqXLho0mXOUTXe37DWfZza5V9Oify3
+JquBd8uUptW1Ue41H4t/ErsCgYEArc5FYtF1QXIlfcDz3oUGz16itUZpgzlb71nd
+1cbTm8EupCwWR5I1j+IEQU+JTUQyI1nwWcnKwZI+5kBbKNJUu/mLsRyY/UXYxEZh
+ibrNklm94373kV1US/0DlZUDcQba7jz9Yp/C3dT/RlwoIw5mP3UxQCizFspNKOSe
+euPeaxUCgYEAntklXwBbokgdDup/u/3ms5Lb/bm22zDOCg2HrlWQCqKEkWkAO6R5
+/Wwyqhp/wTl8VXjxWo+W+DmewGdPHGQQ5fFdqgpuQpGUq24YZS8m66v5ANBwd76t
+IZdtF5HXs2S5CADTwniUS5mX1HO9l5gUkk+h0cH5JnPtsMCnAUM+BRY=
+-----END RSA PRIVATE KEY-----
+
+pass25->26 : YnQpBuifNMas1hcUFk70ZmqkhUU2EuaS
+pass26->27 : AVanL161y9rsbcJIsFHuw35rjaOM19nR
+pass27->28 : tQKvmcwNYcFS6vmPHIUSI3ShmsrQZK8S git log & git show <checksum>
+pass28->29 : xbhV3HpNGlTIdnjUrdAlPzc2L6y9EOnS git branch -r && git checkout dev && git show
+pass30->31 : OoffzGDlzhAlerFJ2cAiz1D41JW1Mhmt git tag && git show secret
+pass31->32 : rmCBvG56y58BXzv98yZGdO7ATVL5dW8y 
+pass32->33 : odHo63fHiFqcWWJG9rLiLDtPm45KzUKy $0 && id && bandit33 and bandit32 are of the same group , so cat /etc/bandit_pass/bandit33 prints the passkey
+
