@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// In multi user implementation also multiple functions have been made to make sure all the basic function requirements 
+// of the to_do program have been fulfiled
 bool fileExists(string& filename){
   ifstream file(filename);
   return file.is_open();
@@ -213,7 +215,8 @@ int main(){
 
   int choice;
 
-  // retrieve the present tasks
+// Here is the code retrieve the present tasks present in the file
+// This is a complex piece of code finally put together after many attempts
   ifstream file(todo_file);
   vector<vector<string>>vic;
   int user_count=0;
@@ -243,6 +246,8 @@ int main(){
   
   file.close();
 
+// An infinite while loop will make sure the user can perform as many operation as he/she wants without having to 
+// quit out of the program
   while(1){
     cout << "Choice : ";
     cin >> choice;

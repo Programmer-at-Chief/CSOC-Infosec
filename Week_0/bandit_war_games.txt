@@ -1,5 +1,10 @@
+Note: For some of the challenges , a final command is writter after the passwords which will display the answers for 
+      the next challenge
+
+Important Locations:
 /etc/bandit_pass/
 /tmp/
+
 
 pass0->1 : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 pass1->2 : rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi

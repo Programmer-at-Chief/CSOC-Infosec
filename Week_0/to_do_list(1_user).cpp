@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Different functions have been made for all the functionalities of the to_do program for a single user
 bool fileExists(string& filename){
   ifstream file(filename);
   return file.is_open();
@@ -98,6 +99,7 @@ int main(){
   vector<string> vic;
   int count=0;
 
+// This is where the already present to_dos will be read and stored in a vector of strings
   ifstream file(todo_file);
   string prev;
   while(getline(file,prev)){

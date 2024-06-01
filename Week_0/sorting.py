@@ -1,8 +1,22 @@
-# Merge sort
+"""
+Six sorting algorithms have been used :
+1. Bubble Sort
+2. Insertion Sort
+3. Selection Sort
+4. Merge Sort
+5. Quick Sort
+6. Bogo Sort
+Some useful information such as the time and space Complexity of all the algorithms have been displayed alongside 
+as well
+"""
+
 import random as rand
 import copy
 import time
 import os
+
+# This surt class holds all the sorting codes for the program , but the class methods are not called directly but 
+# through another class acting as a mediator to perform other functions in between
 class Surt:
     def __init__(self):
         self.clearScreen()
@@ -127,6 +141,11 @@ class Surt:
         exit()
 
 sort=Surt()
+"""
+This SurtGame class acts as a mediator for the sorting functions by performing the more important functions such as 
+managing the output and also calculating the time taken by the sorting algorithms for good comparisions
+"""
+
 class SurtGame:
     def __init__(self):
         pass
@@ -253,6 +272,10 @@ print("Enter the array with spaces between numbers : ",end="")
 str=input("")
 arr=[int(i) for i in str.split(" ")]
 
+"""
+This is the starting point of the program 
+Ascii art fonts have been used to cater to the eye candy needs of the program
+"""
 while(True):
     if (choice==-1):
         sort.clearScreen()
