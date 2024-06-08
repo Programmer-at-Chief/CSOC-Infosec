@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 1  Challenge 1.md",
+                "file": "Sakura.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 1  Challenge 1.md",
+                "file": "Sakura.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 1  Challenge 1.md",
+                "file": "Sakura.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 1  Challenge 1.md"
+                "file": "Sakura.md"
               }
             }
           }
@@ -147,5 +147,19 @@
     }
   },
   "active": "37adae8a422f55d5",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Pasted image 20240609012330.png",
+    "Pasted image 20240609012319.png",
+    "Pasted image 20240609012131.png",
+    "Pasted image 20240609003315.png",
+    "Pasted image 20240609003021.png",
+    "Pasted image 20240609000215.png",
+    "Pasted image 20240609000138.png",
+    "Pasted image 20240609000047.png",
+    "Pasted image 20240609000021.png",
+    "Pasted image 20240608235934.png",
+    "Pasted image 20240608235903.png",
+    "Sakura.md",
+    "Week 1  Challenge 1.md"
+  ]
 }
