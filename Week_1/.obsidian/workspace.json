@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "993f154079b0b2e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gralhix OSINT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "90d4e1e8475f638e",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sakura.md",
+                "file": "Gralhix OSINT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sakura.md",
+                "file": "Gralhix OSINT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sakura.md"
+                "file": "Gralhix OSINT.md"
               }
             }
           }
@@ -146,19 +159,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37adae8a422f55d5",
+  "active": "993f154079b0b2e5",
   "lastOpenFiles": [
-    "Pasted image 20240609012330.png",
-    "Pasted image 20240609012319.png",
-    "Pasted image 20240609012131.png",
-    "Pasted image 20240609003315.png",
-    "Pasted image 20240609003021.png",
-    "Pasted image 20240609000215.png",
-    "Pasted image 20240609000138.png",
-    "Pasted image 20240609000047.png",
-    "Pasted image 20240609000021.png",
-    "Pasted image 20240608235934.png",
-    "Pasted image 20240608235903.png",
+    "Pasted image 20240609232353.png",
+    "Pasted image 20240609231756.png",
+    "Gralhix OSINT.md",
+    "Pasted image 20240609231840.png",
+    "Pasted image 20240609231705.png",
+    "Pasted image 20240609231650.png",
+    "Pasted image 20240609212555.png",
+    "Pasted image 20240609212433.png",
+    "Pasted image 20240609111105.png",
+    "Pasted image 20240609110950.png",
+    "Pasted image 20240609110842.png",
+    "Pasted image 20240609110741.png",
     "Sakura.md",
     "Week 1  Challenge 1.md"
   ]
