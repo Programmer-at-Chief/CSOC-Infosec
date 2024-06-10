@@ -25,8 +25,9 @@ Also , I was able to find the same picture on https://oanresort.wixsite.com/chuu
 The location coordinates of Oan Resort are:
 
 - Latitude: 7.3620838°
-- Longitude: 151.756382°
 
+- Longitude: 151.756382°
+  
   According to brave search, which are verified by putting the values in google maps.
 
 ![](Gralhix%20OSINT/2024-06-10-22-13-41-image.png)
