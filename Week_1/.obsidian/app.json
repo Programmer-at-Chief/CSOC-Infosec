@@ -1,1 +1,8 @@
-{}
+{
+  "showLineNumber": true,
+  "spellcheck": false,
+  "vimMode": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./attachments"
+}

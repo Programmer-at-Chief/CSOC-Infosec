@@ -30,3 +30,8 @@ According to brave search, which are verified by putting the values in google ma
 
 ![[Pasted image 20240609231840.png]]
 using these two images, I was able to figure out the camera direction as North-East.
+
+	Task 5
+After searching on google , I got some details of the visit and was able to get the actual uncropped photo of the visit.
+
+![](attachments/Pasted%20image%2020240610210906.png)
