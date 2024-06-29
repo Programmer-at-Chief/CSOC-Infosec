@@ -278,7 +278,9 @@ Video : [PicoCTF: Java Script Kiddie1 WriteUp - YouTube](https://youtu.be/6v8UdZ
 
 This challenge was just like the first one except the key was 32 digits and only even indexes of the key were used to transform the image, so the odd indexes could be kept 0 .
 
-In this one , I worked smartly and wrote the program to just display the hex output and changed the key for each magic number, as a result the answer key was retrieved rather quickly than automating everything.
+In this one , I worked smartly and wrote the program to just display the hex output and changed the key for each magic number, as a result the answer key was retrieved using the qr code rather quickly than trying to automating everything.
+
+![](picoCTF%20challenges/2024-06-30-00-51-24-image.png)
 
 Script: [JavaScript_Kiddie2.py](JavaScript_Kiddie2.py)
 
