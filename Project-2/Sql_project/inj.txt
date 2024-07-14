@@ -1,0 +1,2 @@
+injection example : 
+girls hostel', price = 1 WHERE id = 1 --

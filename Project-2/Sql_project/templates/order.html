@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>Order</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Order {{ product.name }}</h1>
+    </header>
+    <div class="container">
+        <h2>{{product.name}}</h2>
+        <p>Price: Rs. {{ product.price }}</p>
+
+        <form action="/order/{{ product.id }}" method="POST">
+            <h3>Address and other details:</h3> <input type="text" name="address" class="add"><br>
+            <input type="submit" value="Order" class="order-btn">
+        </form>
+        <a href="/products">Back to Products</a>
+    </div>
+</body>
+</html>
